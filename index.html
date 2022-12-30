@@ -12,18 +12,53 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/johnmelodyme.jpg" />
         <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
         <link href="style/main.css" rel="stylesheet">
         <meta name="John Melody Me" content="html" />
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                <h3 class=".ZhiMangXing">John Melody Me</h3>
-                </a>
-            </div>
-            <!-- TODO ADD SOCIAL MEDIA ICONS HERE -->
-        </nav>
+        <div class="container-fluid">
+            <nav class="navbar navbar-light bg-light justify-content-between">
+                <a class="navbar-brand" href="#">John Melody Me</a>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-info" type="button" onclick="OpenLink('https://twitter.com/johnmelodyme')">
+                            <i class="fa-brands fa-twitter text-white"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary" type="button" onclick="OpenLink('https://www.facebook.com/JohnMelodyme')">
+                            <i class="fa-brands fa-facebook"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-danger" type="button" onclick="OpenLink('https://www.instagram.com/johnmelodymel/')">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-success" type="button" onclick="OpenLink('https://api.whatsapp.com/send?phone=60137397193')">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-dark" type="button" onclick="OpenLink('https://github.com/johnmelodyme')">
+                            <i class="fa-brands fa-github"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary" type="button" onclick="OpenLink('https://discord.com/invite/V6nf8a2ZV5')">
+                            <i class="fa-brands fa-discord"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-dark" type="button" onclick="OpenLink('https://www.tiktok.com/@johnmelodymel')">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </button>
+                    </div>
+                </div> 
+            </nav>
+        </div>
         <script src="./scripts/app.js">
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -90,6 +125,78 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <span class="breakline"></span>
+                <div class="col" id="huobi">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/huobi-logo-1.jpg" class="card-img-top" alt="huobi">
+                        <div class="card-body">
+                            <p class="text-dark">Huobi is a global digital asset financial services provider. 
+                                It offers a secure and reliable platform for buying, selling, and storing 
+                                cryptocurrencies. With a strong focus on user experience and customer service, 
+                                Huobi is a popular choice among cryptocurrency traders and investors. Try Huobi 
+                                today and experience the convenience and benefits of a leading digital asset exchange.</p>
+                            <div id="action-buttons::huobi">
+                                <button type="button" class="btn btn-outline-primary" onclick="OpenLink('https://www.huobi.com/en-us/register/?backUrl=%2Fen-us%2F&invite_code=rjvc6223')">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="bitget">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/Bitget-brand-image-scaled.jpg" class="card-img-top" alt="bitget">
+                        <div class="card-body">
+                            <p class="text-dark">BitGet is a digital asset trading platform that offers a 
+                                wide range of cryptocurrencies for users to buy, sell, and trade. With a 
+                                user-friendly interface and advanced security measures, BitGet is a reliable 
+                                and secure choice for those looking to enter the world of cryptocurrency trading. 
+                                Whether you're a beginner or an experienced trader, BitGet has something to offer 
+                                for everyone. Give it a try and discover the benefits of trading on a trusted platform.</p>
+                            <div id="action-buttons::portfolio">
+                                <button type="button" class="btn btn-outline-primary" onclick="OpenLink('https://www.bgportable.com/en/referral/register?from=referral&clacCode=MNDY3XJN')">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="bitget">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/Bitget-brand-image-scaled.jpg" class="card-img-top" alt="bitget">
+                        <div class="card-body">
+                            <p class="text-dark">BitGet is a digital asset trading platform that offers a 
+                                wide range of cryptocurrencies for users to buy, sell, and trade. With a 
+                                user-friendly interface and advanced security measures, BitGet is a reliable 
+                                and secure choice for those looking to enter the world of cryptocurrency trading. 
+                                Whether you're a beginner or an experienced trader, BitGet has something to offer 
+                                for everyone. Give it a try and discover the benefits of trading on a trusted platform.</p>
+                            <div id="action-buttons::portfolio">
+                                <button type="button" class="btn btn-outline-primary" onclick="OpenLink('https://www.bgportable.com/en/referral/register?from=referral&clacCode=MNDY3XJN')">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="bitget">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/Bitget-brand-image-scaled.jpg" class="card-img-top" alt="bitget">
+                        <div class="card-body">
+                            <p class="text-dark">BitGet is a digital asset trading platform that offers a 
+                                wide range of cryptocurrencies for users to buy, sell, and trade. With a 
+                                user-friendly interface and advanced security measures, BitGet is a reliable 
+                                and secure choice for those looking to enter the world of cryptocurrency trading. 
+                                Whether you're a beginner or an experienced trader, BitGet has something to offer 
+                                for everyone. Give it a try and discover the benefits of trading on a trusted platform.</p>
+                            <div id="action-buttons::portfolio">
+                                <button type="button" class="btn btn-outline-primary" onclick="OpenLink('https://www.bgportable.com/en/referral/register?from=referral&clacCode=MNDY3XJN')">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="breakline"></span>
+        </div>
+        <div style="margin: 0 auto; display: table;" id="footer">
+        <footer>
+            <p>Created by John Melody Me. © 2023</p>
+        </footer>
         </div>
     </body>
 </html>
