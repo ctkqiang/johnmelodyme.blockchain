@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- 
+    @author John Melody Me <Johnmelodyme@icloud.com>
+    @Copyright 2023 - 2050 John Melody Me.
+-->
+<html lang="en-UK">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>John Melody Me</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/johnmelodyme.jpg" />
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="style/main.css" rel="stylesheet">
+        <meta name="John Melody Me" content="html" />
+    </head>
+    <body>
+        <script src="./scripts/app.js">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <div class="container-xl" id="main-body">
+            <div class="row">
+                <span class="breakline"></span>
+                <div class="col" id="Portfolio">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/bg-portfolio.png" class="card-img-top" alt="Portfolio">
+                        <div class="card-body">
+                            <p class="text-dark">If you would like to review my resume, 
+                                please click the download button below. With a strong 
+                                background in Software Engineering and Cyber Security, 
+                                My resume highlights my achievements, skill sets and 
+                                demonstrates my ability to succeed in any diverse roles.</p>
+                            <div id="action-buttons::portfolio">
+                                <button type="button" class="btn btn-outline-primary" onclick="ViewResume()">Download</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="RedirectToPortfolio()">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="pawlyn-pet">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/pawlynpet.png" class="card-img-top" alt="pawlyn-pet">
+                        <div class="card-body">
+                            <p class="text-dark">I know that caring for a furry friend can be a lot of work, 
+                            which is why I've created this innovative tool to make your life easier. With 
+                            features like customizable feeding schedules, reminders for important tasks, and
+                            our app has everything you need to keep your pet healthy & happy.</p>
+                            <div id="action-buttons::pawlyn-pet">
+                                <button type="button" class="btn btn-outline-primary" onclick="VisitPawlynPet()">Visit Website</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="bybit">
+                    <div class="card" style="width:18rem;height:auto">
+                        <img src="assets/images/bybit.png" class="card-img-top" alt="bybit">
+                        <div class="card-body">
+                            <p class="text-dark">Bybit is a leading cryptocurrency exchange platform that 
+                                offers leveraged trading of Bitcoin, Ethereum, & other digital assets. 
+                                With a user-friendly interface and access to real-time market data, this 
+                                platform is for traders of all levels. Try it out today, with my referal 
+                                code below!</p>
+                            <div id="action-buttons::bybit">
+                                <button type="button" class="btn btn-outline-primary" onclick="OpenBybitAffliate()">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
