@@ -15,5 +15,6 @@ const RedirectToPortfolio = () => {
 };
 
 const RedirectToNFTPortfolio = () => {
-    window.location.href = "https://rarible.com/user/0x6dc886d9ce9e5bc59917aa5e3e805d3b2ad3262e/owned;
+  window.location.href =
+    "https://rarible.com/user/0x6dc886d9ce9e5bc59917aa5e3e805d3b2ad3262e/owned";
 };
