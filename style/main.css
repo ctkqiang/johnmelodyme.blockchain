@@ -7,3 +7,11 @@ div.paddingAround {
     padding-left: 4em; 
     padding-right: 4em;
 }
+
+@font-face { 
+    font-family: ZhiMangXing; src: url('font/ZhiMangXing.ttf'); 
+} 
+    
+.ZhiMangXing { 
+    font-family: ZhiMangXing; font-size: 4.2em;
+}
